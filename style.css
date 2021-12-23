@@ -109,3 +109,9 @@ body {
 .completed {
   text-decoration: line-through;
 }
+
+@media (max-width: 414px) {
+  .container {
+    min-width: 95%;
+  }
+}
