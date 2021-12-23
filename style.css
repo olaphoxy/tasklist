@@ -1,0 +1,111 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #e0e0e0;
+}
+
+.container {
+  width: 40%;
+  min-width: 450px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  background: white;
+  border-radius: 10px;
+  border-radius: 38px;
+  background: #e0e0e0;
+  box-shadow: 6px -6px 8px #9d9d9d, -6px 6px 8px #fff;
+}
+
+#newtask {
+  position: relative;
+  padding: 30px 20px;
+}
+
+#newtask input {
+  width: 75%;
+  height: 45px;
+  font-size: 15px;
+  border: 2px solid #d1d3d4;
+  padding: 12px;
+  color: #111111;
+  font-weight: bold;
+  position: relative;
+  border-radius: 5px;
+  border-radius: 38px;
+  background: #e0e0e0;
+  box-shadow: 6px -6px 8px #9d9d9d, -6px 6px 8px #fff;
+}
+
+#newtask button {
+  position: relative;
+  float: right;
+  width: 20%;
+  height: 45px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  background: #0d75ec;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+  border-radius: 30px;
+  box-shadow: 6px -6px 8px #9d9d9d, -6px 6px 8px #fff;
+  transition: 250ms;
+}
+
+#tasks {
+  /* background: #fff; */
+  padding: 30px 20px;
+  margin-top: 10px;
+  /* border-radius: 10px; */
+  width: 100%;
+  position: relative;
+  border-radius: 38px;
+  background: #e0e0e0;
+  box-shadow: 6px -6px 8px #9d9d9d, -6px 6px 8px #fff;
+}
+
+.task {
+  background: #c5e1e6;
+  height: 50px;
+  margin-bottom: 8px;
+  padding: 5px 23px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #939697;
+  cursor: pointer;
+  border-radius: 30px;
+  background: #e0e0e0;
+  box-shadow: 6px -6px 8px #9d9d9d, -6px 6px 8px #fff;
+}
+
+.task span {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.task a {
+  /* background: #9e0808; */
+  color: #9e0808;
+  width: 15px;
+  padding: 2px;
+  border-radius: 58px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 6px -6px 8px #9d9d9d, -6px 6px 8px #fff;
+}
+
+.completed {
+  text-decoration: line-through;
+}
